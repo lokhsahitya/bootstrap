@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function add(x,y){
+        //     return x+y
+        // }
+
+        // -------anonymous---------
+        // let add=function(x,y){
+        //     return x+y
+        // }
+
+        //----------Arrow-------------
+        // let add=(x,y)=>x+y
+        // document.write(add(99,900))
+
+       // --------objects--------
+         let employee={
+            name:"Reddy",
+            designation:"CEO",
+            salary:"20CRPA"
+        }
+        //document.write(employee.name);
+
+      //---------Destructuring of objects------
+       //    let{name,designation,salary}=employee
+       //     document.write(name);
+
+       //--------destructuring of Arrays-----
+       let name=["Reddy", "Sathwik","shiva"]
+      //  document.write(name[1])
+    //    let [st1,st2,st3]=name
+    //    document.writeln(st1)
+    //    document.writeln(st2)
+    //    document.writeln(st3)
+
+    //-----spread operator------
+    // let [st1,...remainData]=name
+    // document.writeln(st1);
+    // document.writeln(remainData);
+
+    //-------Rest parameters------
+
+    // function add(x,y,...remainList){
+    //       // return x+y
+    //       console.log(x)
+    //        console.log(y)
+    //        console.log(remainList)
+    //          return x+y
+    //     }
+    //  console.log(add(2,66,7,55,44,33))
+
+    //-------foreach----
+    name.forEach((value) =>{
+     return document.write(value +"<br />")
+    })
+
+  //  let list= name.map((value,index)=>{
+  //    return value+ " M" 
+  //   })
+  //   console.log(list)
+
+    </script>
+</body>
+</html>
+  
